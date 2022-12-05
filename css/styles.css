@@ -46,10 +46,10 @@ a {
 
 .button-primary:hover {
     background-color: var(--button-primary-hover);
-
+    cursor: pointer;
 }
 
-/* Header section  */
+/* logo section  */
 .logo {
     color: var(--accent-color);
     font-family: "Raleway", sans-serif;
@@ -58,6 +58,13 @@ a {
     line-height: 1.2;
     text-decoration: none;
 }
+.logo.white-font:hover{
+    color: var(--logo-black);
+}
+.logo.black-fond:hover{
+    color: var(--primary-white-color);
+}
+
 
 .nav-menu .page {
     color: var(--primary-black-color);
@@ -79,7 +86,7 @@ a {
 }
 
 .nav-menu .page:hover,
-.nav-menu .page:focus,
+.nav-menu .page:focus,  
 .nav-menu .page.current,
 .contacts-menu .item:hover,
 .contacts-menu .item:focus {
